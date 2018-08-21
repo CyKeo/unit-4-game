@@ -1,0 +1,75 @@
+body{
+	background: url(../images/wormz/wormz.png)
+}
+
+h1{
+	color: #fff;
+	background-color: #d57500;
+
+	font-size: 40px;
+
+	padding: 15px;
+
+	margin: 5px;
+	margin-bottom: 5px;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.instruction{
+	color: green;
+	background-color: tan;
+
+	font-size: 16px;
+
+	line-height: 1.5;
+
+	padding-bottom: 50px;
+
+	margin: 5px;
+}
+
+.num{
+	background-color: green; 
+
+	margin: 2px;
+}
+
+
+.count{
+	color: green;
+	background-color: skyblue;
+
+	margin: 2px;
+}
+
+
+img{
+	height: 100px;
+	width: 100px;
+
+	padding: 5px;
+
+	background-color: #fffffe;
+
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+.head{
+	color: #fff;
+	background-color: #0d98ba;
+
+	margin: 2px;
+}
+
+.score{
+	color: #fff;
+
+	padding: 20px;
+	background-color: #0d98ba;
+
+	margin: 2px;
+}
+

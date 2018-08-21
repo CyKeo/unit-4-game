@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>crystal clicker</title>
+
+
+	<!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<!-- main holding div -->
+	<div class="container">
+
+		<!-- heading div -->
+		<div class="row">
+			
+			<h1 class="col-md-4">Crystals Collector!</h1>
+		</div>
+
+		<!-- instruction div -->
+		<div class="row ">
+			<div class="col-md-4 instruction">
+				<p>
+					You will be given a random number at the start of the game.
+				</p>
+
+				<p>
+					There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score goes above the random number. 
+				</p>
+
+				<p>
+					The value of each crystal is hidden from you until you click on it.
+				</p>
+
+				<p>
+					Each time when the game starts the game will change the values of each crystal.
+				</p>
+				<p>
+
+				</p>
+			</div>
+		</div>
+
+		<!-- values div -->
+		<div class="row">
+			<!-- this div holds target number -->
+			<div class="col-md-2 num">
+				<H3 class="target"> 0</H3>
+			</div>
+
+			<!-- this div holds wins and losses -->
+			<div class="col-md-2 count">
+				<!-- wins section -->
+				<section class="row">
+					<h5> Wins: <span class="wins">0</span></h5>
+				</section>
+
+				<!-- losses section -->
+				<section class="row">
+					<h5> Losses: <span class="losses">0</span></h5>
+				</section>
+			</div>
+		</div>
+
+		<!-- crystals div -->
+		<div class="row">
+			<div class="col-md-5 gems">
+			</div>
+		</div>
+
+		<!-- score heading -->
+		<div class="row">
+			<header class="head col-md-2"> Your total score!</header>
+		</div>
+
+		<!-- score div -->
+		<div class="row">
+			<h3 class="score col-md-2">0</h3>
+		</div>
+
+
+	</div close>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>

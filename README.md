@@ -1,18 +1,25 @@
-# unit-4-game
+# <h1>unit-4-game</h1>
 
-This is the Crystal collector game once the game is loaded a random target number between 19 and 120 is generated this is the target number
+<p>This is the Crystal collector game once the game is loaded a random target number between 19 and 120 is generated this is the target number</p>
 
-The game will also generate four crystals each crystal will have a random value between 1 and 19 
+<p>The game will also generate four crystals each crystal will have a random value between 1 and 19 </p>
 
-The top box shows the target number
+<p>The top box shows the target number</p>
 
-The bottom box shows your current score of the added up crystal numbers
+<p>The bottom box shows your current score of the added up crystal numbers</p>
 
-The side box shows your wins and losses
+<p>The side box shows your wins and losses</p>
 
-The goal of the game is to reach the target number by clicking crystals to get your score to the target 
+<p>The goal of the game is to reach the target number by clicking crystals to get your score to the target </p>
 
-After you win or loose the game the game will change the target values and gem values it will also zero out your score so you can go again
+<p>After you win or loose the game the game will change the target values and gem values it will also zero out your score so you can go again</p>
 
-There is no win loss cap so you can play as long as you want
+<p>There is no win loss cap so you can play as long as you want</p>
 
+<h2>This game was created using</h2>
+
+<ol>
+	<li> css </li>
+	<li> javascript </li>
+	<li> html </li>
+</ol>

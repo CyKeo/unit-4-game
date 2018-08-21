@@ -11,6 +11,8 @@ $(".target").text(target);
 
 var nums = ["assets/images/diamond.png", "assets/images/emerald.png", "assets/images/gem.png", "assets/images/ruby.png"];
 
+
+
 for(i = 0; i < nums.length; i++){
 
 	var imageGem = $("<img>");
@@ -55,7 +57,29 @@ var reset = function(){
 	$(".score").text("0");
 
 	counter = 0;
-
 	
+	var target = Math.floor(Math.random() * (( 120 - 19 )+ 1) + 19);
+	$(".target").text(target);
+
+
+
+	// the crystal reset isnt working right now instead of changing the value it creates new crystals and im not sure how to remove them currently
+
+	// $("<img>").remove();
+
+	// for(i = 0; i < nums.length; i++){
+
+	// 	var imageGem = $("<img>");
+	
+	// 	imageGem.addClass("gem-image");
+	
+	// 	imageGem.attr("src", nums[i]);
+	
+	// 	imageGem.attr("data-gemvalue", Math.floor(Math.random() * 19)+ 1);
+	
+	// 	$(".gems").append(imageGem);
+	
+	// 	console.log(imageGem)
+	// }
 
 }
